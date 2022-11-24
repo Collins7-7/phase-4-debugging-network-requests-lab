@@ -63,11 +63,15 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  Their was a naming error and so i changed the name in the create action from Toys to Toy since that's the correct name of the model.
+
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  I added the render json: toy in the update action since there was no json being returned in the response leading to a syntax error.
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  I added the delete route by using all the routes provided by the resource tool.
